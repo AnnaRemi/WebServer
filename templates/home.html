@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Home page</title>
+  </head>
+  <body>
+    {% extends "template.html" %}
+    {% block content %}
+
+	<p> Enter an unknown word:</p>
+	<form method="post" action=".">
+	    <p><input name="word" /></p>
+	    <p><input type="submit" value="Find the definition" /></p>
+	</form>
+    
+    {% endblock %}
+  </body>
+</html>
