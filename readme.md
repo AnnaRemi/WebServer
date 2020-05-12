@@ -24,6 +24,16 @@ on 'home' page you can insert a word in special window; afterwards, you can eith
 
 
 
+
+
+
+
+
+
+
+
+
+
 for some words' translations there is an output {"error": "Word has no translation in API"}
 it happens due to change in Google translate's policy, as PyDictionary uses Google translate
 https://stackoverflow.com/questions/37009972/pydictionary-translate-returns-invalid-word-none
