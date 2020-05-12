@@ -13,6 +13,9 @@ While program is running you can visit my website:
 http://127.0.0.1:5000/
 
 There you'll see such window:
+
+![](/filenameScreenshot.png)
+
 this is 'home' page
 
 on 'about' page you can learn about me and my project
