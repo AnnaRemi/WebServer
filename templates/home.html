@@ -8,12 +8,19 @@
     {% extends "template.html" %}
     {% block content %}
 
-	<p> Enter an unknown word:</p>
+	<h1> Enter an unknown word:</h1>
 	<form method="post" action=".">
 	    <p><input name="word" /></p>
-	    <p><input type="submit" name="submit button" value="Find the definition" /></p>
-	    <p><input type="submit" name="submit button" value="Find the synonym" /></p>
-	    <p><input type="submit" name="submit button" value="Find the antonym" /></p>
+	    <p><select size="5" multiple name="code">
+	        <option disabled>Choose the language</option>
+		<option value="cy">Welsh</option>
+    		<option value="it">Italian</option>
+    		<option value="es">Spanish</option>
+    		<option value="de">German</option>
+		<option value="hi">Hindi</option>
+   	    </select></p>	    
+	    <p><input type="submit" name="submit_button" value="Find the definition" /></p>
+    	    <p><input type="submit" name="submit_button" value="Find the translation" /></p>
 	</form>
     
     {% endblock %}
