@@ -14,7 +14,7 @@ http://127.0.0.1:5000/
 
 There you'll see such window:
 
-![](filename Screenshot.png)
+![](/filename Screenshot.png)
 
 this is 'home' page
 
