@@ -9,7 +9,7 @@ Using Python's Flask, HTML templates and PyDictionary API
 ## Installing dependencies:
 `pip freeze > requirements.txt`
 
-## Running from the Linux terminal
+## Running from the command line
 
 `python my_server.py`  
 
