@@ -10,7 +10,7 @@ Codename: eoan
 
 
 ## Installing dependencies:
-`pip freeze > requirements.txt`
+`pip3 freeze > requirements.txt`
 
 ## Running from the command line
 
