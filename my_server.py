@@ -13,7 +13,7 @@ def get_home():
             <html>
             <body>
             <p>{result}</p>
-            <p><a href="/">Click here to go on</a>
+            <p><a href="/">Back</a>
             </body>
             </html>
                '''
