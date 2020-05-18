@@ -5,6 +5,9 @@
 Getting the definition of the word; now translation is available!
 Using Python's Flask, HTML templates and PyDictionary API 
 
+Ubuntu 19.10
+Codename: eoan
+
 
 ## Installing dependencies:
 `pip freeze > requirements.txt`
