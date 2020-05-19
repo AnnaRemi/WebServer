@@ -22,6 +22,10 @@ Install newest version of pip, pip-tools and pip-chill:
 `pip install pip-tools pip-chill`
 
 Extract minimal set of packages (ie, top-level without dependencies):
+`pip install flask`
+`pip install PyDictionary`
+`pip install translate`
+
 `pip-chill --no-version > requirements.txt`
 
 ## Running from the command line
