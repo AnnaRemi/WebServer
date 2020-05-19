@@ -11,17 +11,18 @@ Codename: eoan
 
 ## Installing dependencies:
 Create virtual environment:
-`$ python3 -m venv venv`
+`python3 -m venv venv`
 
 Activate it:
-`$ . venv/bin/activate`
+`. venv/bin/activate`
 
 Install newest version of pip, pip-tools and pip-chill:
-`(venv)$ pip install --upgrade pip`
-`(venv)$ pip install pip-tools pip-chill`
+`pip install --upgrade pip`
+
+`pip install pip-tools pip-chill`
 
 Extract minimal set of packages (ie, top-level without dependencies):
-`(venv)$ pip-chill --no-version > requirements.txt`
+`pip-chill --no-version > requirements.txt`
 
 ## Running from the command line
 
