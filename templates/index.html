@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+            <title>Dictionary output</title>
+            </head>
+            <body>
+
+            <table>
+            {% for key, value in result.items() %}
+               <tr>
+                    <th> {{ key }} </th>
+                    <td><p> {{ value }}</p> </td>
+               </tr>
+            {% endfor %}
+            </table>
+            <p><a href="/">Click here to go on</a>
+            </body>
+ </html>
