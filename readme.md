@@ -10,12 +10,21 @@ Codename: eoan
 
 
 ## Installing dependencies:
-`pip3 freeze > requirements.txt`
+Create virtual environment:
+`$ python3 -m venv venv`
+Activate it:
+`$ . venv/bin/activate`
+Install newest version of pip, pip-tools and pip-chill:
+`(venv)$ pip install --upgrade pip`
+`(venv)$ pip install pip-tools pip-chill`
+Build your project, install more pip packages, etc, until you want to save...
+Extract minimal set of packages (ie, top-level without dependencies):
+`(venv)$ pip-chill --no-version > requirements.txt`
 
 ## Running from the command line
 
 `python my_server.py`  
-
+(using python 3 by default)
 
 While program is running you can visit my website:
 http://127.0.0.1:5000/
